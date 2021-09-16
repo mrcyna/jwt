@@ -19,6 +19,3 @@ $base64UrlSignature = base64UrlEncode($signature);
 $jwt = $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
 
 echo $jwt;
-
-
-
